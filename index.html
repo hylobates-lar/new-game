@@ -196,6 +196,8 @@ function hitBomb (player, bomb)
 
     player.setTint(0xff0000);
 
+    gameOverText = this.add.text(16, 16, 'game over', { fontSize: '32px', fill: '#000' });
+
     player.anims.play('turn');
 
     gameOver = true;
