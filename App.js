@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         bombs = this.physics.add.group();
 
         //  The score
-        scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' });
+        scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '30px', fill: '#000' });
 
         //  Collide the player and the stars with the platforms
         this.physics.add.collider(player, platforms);
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         player.setTint(0xff0000);
 
-        gameOverText = this.add.text(300, 250, 'GAME OVER', { fontSize: '32px', fill: '#000' });
+        gameOverText = this.add.text(300, 250, 'GAME OVER', { fontSize: '40px', fill: '#000' });
 
         player.anims.play('turn');
 
