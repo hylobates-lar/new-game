@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         player.setTint(0xff0000);
 
-        gameOverText = this.add.text(300, 250, 'game over', { fontSize: '32px', fill: '#000' });
+        gameOverText = this.add.text(300, 250, 'GAME OVER', { fontSize: '32px', fill: '#000' });
 
         player.anims.play('turn');
 
